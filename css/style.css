@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+section{
+    padding: 100px 0px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.underline{
+border-top: 5px solid rgb(30, 6, 6);
+width: 7%;
+margin:10px auto;
+}
+.global-heading{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+header{
+    width: 100%;
+    float: left;
+background-color: #87509c;
+color: white;
+}
+nav{
+    width: 100%;
+    float: left;
+padding: 10px 0px;
+}
+.logo-part{
+    width: 50%;
+    float: left;
+}
+.menu-part{
+ width: 50%;
+    float: left;
+    padding: 10px ;
+}
+.menu-part li{
+display: inline-block;
+margin: 0px 10px;
+
+padding: 7px; 
+border-radius:5px ;
+}
+.menu-part li:hover{ 
+    background-color:rgb(66, 61, 61);
+}
+.menu-part a{
+    font-size:17px;
+    color: white;
+    font-weight: 600;
+
+}
+.hero-part{
+    width: 100%;
+    float: left;
+    margin: 150px 0px;
+    text-align: center;
+}
+.hero-part h1{
+font-size: 35px;
+font-weight:600;
+width: 60%;
+margin: auto;
+}
+.hero-part a button{
+width: 15%;
+padding: 10px;
+margin-top: 20px;
+color: white;
+background-color: #eb7d4b;
+transition: ease-in-out 0.8s;
+}
+.hero-part a button:hover{
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px #ff5101 ;
+
+}
+#service{
+    background-color: #17c2a4;
+    color: white;
+    text-align: center;
+    padding: 100px 0px;
+    width: 100%;
+    float: left;
+}
+.service-writing-part{
+width: 100%;
+float: left;
+}
+.service-box-part{
+    width: 100%;
+    float: left;
+padding: 30px 10px;
+margin-top: 50px;
+}
+.service-box{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.service-box img{
+    height:120px ;
+
+
+    /#team section #/
+}
+#team{
+    width: 100%;
+    float: left;
+    text-align:center ;
+    background-color:#e7f1f8;
+}
+.team-writing-part{
+width: 100%;
+float: left;
+
+}
+.team-box-part{
+width: 100%;
+float: left;
+
+}
+
+
+.team-box{
+width: 50%;
+float: left;
+padding: 10px;
+}
+.team-box img{
+width: 250px;
+height: 250px;
+border-radius:50%;
+}
+.team-box p{
+margin: 15px 0px;
+}
+.team-title{
+    color: #48c1e9;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.team-icons i{
+background-color: #e7f1f8;
+color: white;
+width: 35px;
+padding: 10px;
+border-radius: 50px;
+margin: 5px;
+transition: ease-in-out 0.5s;
+}
+.team-icons i:hover{
+
+    background-color: white;
+    color: #87509c;
+}
+#contact{
+width: 100%;
+float: left;
+text-align: center;
+color: white;
+background-color: #3c5499;
+}
+.contact-writing-part{
+    width: 100%;
+    float: left;
+
+}
+.contact-form-part{
+    width: 100%;
+    float: left;
+margin-top: 50px;
+}
+.form-row{
+width: 100%;
+float: left;
+
+}
+#f-name{
+   width: 50%;
+    padding: 10px;
+    background-color: #273a71;
+    color: white;
+}
+#email{
+    width: 50%;
+    padding: 10px;
+    background-color: #273a71;
+    color: white;
+}
+#message{
+   width: 50%;
+    height: 200px;
+    padding: 10px;
+    background-color: #273a71;
+    color: white; 
+    
+
+}
+.form-btn{
+    width: 15%;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: #30bae7;
+    transition: ease-in-out 0.8s;
+}
+.form-btn:hover{
+    border-radius: 5px;
+    background-color: rgb(229, 255, 0);
+}
+.form-name{
+width: 50%;
+float: left;
+text-align: right;
+padding: 10px;
+}
+.form-email{
+    width: 50%;
+    float: left;
+    text-align: start;
+    padding: 10px;
+}
+.form-message{
+    width: 100%;
+    float: left;
+    margin: auto;
+}
